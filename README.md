@@ -7,8 +7,7 @@ The objective of this project is to examine the effects of reference panel size 
 Next steps would included running the pipeline with more populations, creating more complex reference panels, and running more iterations. Furthermore, we hope to improve the computational pipeline specifically for admixed populations. This will involve using a data set of simulated admixed genomes and running more imputation experiments to determine the optimum reference panel for admixed individuals.
 
 ### Installations
-Running this pipeline requires downloading data from the 1000 genomes project
-Additionally it requires the installation of BEAGLE. Java 8 must be installed before BEAGLE as it is used in the installation process.
+Running this pipeline requires downloading data from the 1000 genomes project. Additionally it requires the installation of BEAGLE ([beagle.22Jul22.46e.jar_](https://faculty.washington.edu/browning/beagle/beagle.22Jul22.46e.jar)). Java 8 (https://www.java.com/en/download/manual.jsp) must be installed in order to use BEAGLE.
 
 ### Software & Technology Used
 Java 8
