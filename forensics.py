@@ -113,18 +113,15 @@ def files_to_imp_accuracy(filepath):
         my_dict[loci] = imputation_accuracy(imp, true)
     return my_dict
 
-# list of populations
 # populations = ['ACB', 'CEU', 'FIN', 'IBS', 'LWK', 'PJL', 'YRI', 'ASW', 'CHB', 
 #  'GBR', 'ITU', 'MSL', 'PUR', 'BEB', 'CLM', 'GIH', 'JPT', 'MXL', 'STU', 'CDX', 
 #  'ESN', 'GWD', 'KHV', 'PEL', 'TSI']
 
-# populations = ['GWD', 'PUR', 'CHS', 'IBS', 'GIH']
-
-populations = ['GWD', 'PUR']
+# list of populations
+populations = ['GWD', 'PUR', 'CHS', 'IBS', 'GIH']
 
 # ref panel sizes
-# size = [10, 20, 30, 40, 50]
-size = [10, 20]
+size = [10, 20, 30, 40, 50]
 
 # Computational Pipeline
 def main():
