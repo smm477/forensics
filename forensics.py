@@ -157,7 +157,7 @@ def main():
       df.at[counter, 'population'] = pop
       df.at[counter,'ref panel size'] = s
       for element in codis:
-        df.at[counter][element] = accuracy_dict[element]
+        df.at[counter, element] = accuracy_dict[element]
  
   df.to_csv('/workdir/forensics/csv/'+str(it)+'.csv')
 
