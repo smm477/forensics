@@ -6,10 +6,11 @@ The objective of this project is to examine the effects of reference panel size 
 ### Future Developments
 Next steps would included running the pipeline with more populations, creating more complex reference panels, and running more iterations. Furthermore, we hope to improve the computational pipeline specifically for admixed populations. This will involve using a data set of simulated admixed genomes and running more imputation experiments to determine the optimum reference panel for admixed individuals.
 
-### Software Used
+### Software & Technology Used
 Java 8
 <br />BEAGLE
 <br />vcftools
 <br />Python
+<br />Bash
 <br />BioHPC
 
