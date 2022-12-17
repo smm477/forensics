@@ -9,11 +9,29 @@ Next steps would included running the pipeline with more populations, creating m
 ### Installations
 Running this pipeline requires downloading data from the 1000 genomes project. Additionally it requires the installation of BEAGLE ([beagle.22Jul22.46e.jar_](https://faculty.washington.edu/browning/beagle/beagle.22Jul22.46e.jar)). Java 8 (https://www.java.com/en/download/manual.jsp) must be installed in order to use BEAGLE.
 
-### Software & Technology Used
+### System Requirements
 Java 8
 <br />BEAGLE
 <br />vcftools
 <br />Python
 <br />Bash
 <br />BioHPC
+
+### References
+Fortier AL, Kim J, Rosenberg NA, 2020. Human-Genetic Ancestry Inference and False Positives in Forensic Familial
+Searching. G3 Genes|Genomes|Genetics, 10(8):2893–2902.
+
+Saini S, Mitra I, Mousavi N, Fotsing SF, Gymrek M, 2018. A reference haplotype panel for genome-wide imputation of
+short tandem repeats. Nature Communications, 9(1):4397.
+
+Huang L, Li Y, Singleton AB, Hardy JA, Abecasis G, Rosenberg NA, Scheet P, 2009. Genotype-imputation accuracy across
+worldwide human populations. The American Journal of Human Genetics, 84(2):235–250.
+
+Edge MD, Algee-Hewitt BFB, Pemberton TJ, Li JZ, Rosenberg NA, 2017. Linkage disequilibrium matches forensic genetic
+records to disjoint genomic marker sets. Proceedings of the National Academy of Sciences, 114(22):5671–5676.
+
+Kim J, Edge MD, Algee-Hewitt BF, Li JZ, Rosenberg NA, 2018. Statistical detection of relatives typed with disjoint forensic
+and biomedical loci. Cell, 175(3):848–858.e6.
+4/5
+
 
